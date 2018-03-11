@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Open+Sans');
+
+body{
+   font-family: 'Open Sans',serif;
+  background-image: url("https://www.transparenttextures.com/patterns/assault.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.container{
+  margin-top: 10px;
+}
+
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  background-color: #C1E1A6;
+}
+
+.jumbotron{
+  margin-top: 20px;
+  background-image: url(https://img.barks.jp/image/review/1000137062/1.jpg);
+  background-size: cover;
+  
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:100%; 
+  height:570px;
+}
+
+h1, h2, h3, h5{
+  font-family: Lora, Raleway, serif;
+}
+
+@media (max-width: 900px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,51 @@
+//urls
+$url_0: url(https://fonts.googleapis.com/css?family=Gabriela|Open+Sans);
+$url_1: url(https://www.transparenttextures.com/patterns/assault.png);
+$url_2: url(https://img.barks.jp/image/review/1000137062/1.jpg);
+
+@import $url_0;
+body {
+	font-family: $font_0, $font_1;
+	background-image: $url_1;
+}
+.container {
+	margin-top: 10px;
+}
+.content-box {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 15px;
+	background-color: $color_sprout_approx;
+}
+
+.jumbotron {
+	margin-top: 20px;
+	background-image: $url_2;
+	background-size: cover;
+	h1 {
+		color: $white;
+	}
+}
+
+h1 {
+	font-family: $font_2, $font_3, $font_1;
+}
+h2 {
+	font-family: $font_2, $font_3, $font_1;
+}
+h3 {
+	font-family: $font_2, $font_3, $font_1;
+}
+h5 {
+	font-family: $font_2, $font_3, $font_1;
+}
+@media(max-width: 900px) {
+	0 {
+		.: .;
+		: ;
+	}
+}
+.carousel-inner > .carousel-item > img {
+	width: 100%;
+	height: 570px;
+}
